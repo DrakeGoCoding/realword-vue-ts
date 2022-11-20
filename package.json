@@ -41,6 +41,9 @@
 		"vue-tsc": "^1.0.8"
 	},
 	"lint-staged": {
-		"src/**/*.{ts,vue}": "eslint --fix"
+		"src/**/*.{ts,vue}": [
+			"pnpm run lint",
+			"pnpm run prettier"
+		]
 	}
 }
