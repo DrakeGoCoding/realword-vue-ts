@@ -66,12 +66,11 @@ import type { Article, NewArticle } from '@/models/Article';
 import { routerPush } from '@/router';
 import { api } from '@/services';
 import { computed, onMounted, reactive, ref } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
+import { useRoute } from 'vue-router';
 
 type FormState = NewArticle;
 
 const route = useRoute();
-const router = useRouter();
 const slug = computed<string>(() => route.params.slug as string);
 
 const form: FormState = reactive({

@@ -69,7 +69,7 @@ import useFavorite from '@/composable/useFavoriteArticle';
 import useFollow from '@/composable/useFollowProfile';
 import type { Article } from '@/models/Article';
 import type { Profile } from '@/models/Profile';
-import router, { routerPush } from '@/router';
+import { routerPush } from '@/router';
 import { api } from '@/services';
 import { useUserStore } from '@/stores/user';
 import { storeToRefs } from 'pinia';

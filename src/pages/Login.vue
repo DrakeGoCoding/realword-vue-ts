@@ -49,7 +49,7 @@
 
 <script setup lang="ts">
 import AppLink from '@/components/AppLink.vue';
-import router, { routerPush } from '@/router';
+import { routerPush } from '@/router';
 import { api } from '@/services';
 import type { LoginUser } from '@/services/api';
 import { useUserStore } from '@/stores/user';

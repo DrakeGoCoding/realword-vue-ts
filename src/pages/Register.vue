@@ -60,7 +60,7 @@
 <script setup lang="ts">
 import AppLink from '@/components/AppLink.vue';
 import type { NewUser } from '@/models/User';
-import router, { routerPush } from '@/router';
+import { routerPush } from '@/router';
 import { api } from '@/services';
 import { useUserStore } from '@/stores/user';
 import { reactive, ref } from 'vue';

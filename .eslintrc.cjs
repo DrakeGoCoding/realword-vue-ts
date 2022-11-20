@@ -17,7 +17,8 @@ module.exports = {
 		extraFileExtensions: ['.vue']
 	},
 	rules: {
-		'@typescript-eslint/explicit-function-return-type': 'off'
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'vue/multi-word-component-names': 'off'
 	},
 	overrides: [
 		{
