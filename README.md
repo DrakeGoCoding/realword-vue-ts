@@ -45,7 +45,7 @@ pnpm run build
 pnpm run lint
 ```
 
-# Prettier code format
+### Prettier code format
 
 ```sh
 pnpm run prettier
